@@ -1,38 +1,38 @@
 const questions =[
     {
-        question: "Which is the largest gadaha in the world ?",
+        question: " Which planet in the solar system is known as the “Red Planet”?",
         answers: [
-            { text: "Yoy", correct: true},
-            { text: "Hm", correct: true},
-            { text: "Pure duniya ko chor kar hm", correct: false},
-            { text: "Me", correct: true},
+            { text: "Venus", correct: false},
+            { text: "Earth", correct: false},
+            { text: "Mars", correct: true},
+            { text: "Jupiter", correct: false},
         ]
     },
     {
-        question: "Which is the largest Pagala in the world ?",
+        question: "Who wrote the novel “War and Peace”?",
         answers: [
-            { text: "Hm", correct: true},
-            { text: "Question banane wala", correct: false},
-            { text: "Hm, jo 1st que. la sahi and de ke bhi 2 que. phad rahe hai", correct: true},
-            { text: "Mere alawa or kon ho sakta hai", correct: false},
+            { text: "Anton Chekhov", correct: false},
+            { text: "Fyodor Dostoevsky", correct: false},
+            { text: "Leo Tolstoy", correct: true},
+            { text: "Ivan Turgenev", correct: false},
         ]
     },
     {
-        question: "Kisko sabse jada jaruri hai Pagal khana me jana ?",
+        question: "What is the capital of Japan?",
         answers: [
-            { text: "Muje ", correct: true},
-            { text: "You ", correct: false},
-            { text: "Hm", correct: false},
-            { text: "Me", correct: false},
+            { text: "Beijing", correct: false},
+            { text: "Tokyo", correct: true},
+            { text: "Seoul", correct: false},
+            { text: "Bangkok", correct: false},
         ]
     },
     {
-        question: "What fruit is most eaten in the world ?",
+        question: " Which river is the longest in the world?",
         answers: [
-            { text: "Apples", correct: false},
-            { text: "Bananas", correct: true},
-            { text: "Oranges", correct: false},
-            { text: "Strawberries", correct: false},
+            { text: "Amazon", correct: false},
+            { text: "Mississippi", correct: false},
+            { text: "Nile", correct: true},
+            { text: "Yangtze", correct: false},
         ]
     },
 ];
