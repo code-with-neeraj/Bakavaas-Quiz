@@ -102,7 +102,7 @@ function selectAnswer(e){
 function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}`;
-    nextButton.innerHTML = "Itna bejati hone ke baad bhi Play Again karo ge";
+    nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
 
